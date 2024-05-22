@@ -284,7 +284,7 @@ getc() {
   /bin/stty "${save_state}"
 }
 
-ring_bell() {
+ () {
   # Use the shell's audible bell.
   if [[ -t 1 ]]
   then
@@ -735,7 +735,7 @@ fi
 
 if [[ -z "${NONINTERACTIVE-}" ]]
 then
-  ring_bell
+   
    
 fi
 
@@ -983,7 +983,7 @@ fi
 ohai "Installation successful!"
 echo
 
-ring_bell
+ 
 
 # Use an extra newline and bold to avoid this being missed.
 ohai "Homebrew has enabled anonymous aggregate formulae and cask analytics."
