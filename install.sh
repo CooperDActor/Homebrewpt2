@@ -291,7 +291,6 @@ getc() {
     printf "\a"
   fi
 
-
   local c
   echo
   echo "Press ${tty_bold}RETURN${tty_reset}/${tty_bold}ENTER${tty_reset} to continue or any other key to abort:"
