@@ -290,7 +290,7 @@ getc() {
   then
     printf "\a"
   fi
-}
+
 
   local c
   echo
